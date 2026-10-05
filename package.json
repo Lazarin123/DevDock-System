@@ -1,0 +1,9 @@
+{
+  "name": "devdock",
+  "version": "1.0.0",
+  "description": "CLI + dashboard local para monitorar portas, processos Node e containers Docker. Zero dependências.",
+  "bin": { "devdock": "bin/devdock.js" },
+  "scripts": { "start": "node bin/devdock.js", "dash": "node bin/devdock.js dash", "test": "node test/parse.test.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
